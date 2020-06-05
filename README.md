@@ -1,3 +1,27 @@
+# Моя альтернативная установка шрифтов для WPS Office
+Я добавила к текущим шрифтам, которые не в архиве, дополнительные шрифты для WPS Office.
+Ubuntu:
+```
+sudo add-apt-repository multiverse
+sudo apt install ttf-mscorefonts-installer
+wget https://github.com/anutator/ttf-wps-fonts/blob/master/wps-fonts.tar.gz
+tar xvzf wps-fonts.tar.gz
+cd wps-fonts
+sudo ./install.sh
+```
+CentOS
+```
+sudo yum install msttcore-fonts-installer webcore-fonts
+wget https://github.com/anutator/ttf-wps-fonts/blob/master/wps-fonts.tar.gz
+tar xvzf wps-fonts.tar.gz
+cd wps-fonts
+sudo ./install.sh
+```
+Если необходимо отдельно обновить кэш шрифтов (вообще то уже в скриптек включено)
+```
+fc-cache -f -v
+```
+
 # WPS Office Fonts
 
 These are the symbol fonts required by wps-office. They are used to display math formulas. We have collected the fonts here to make things easier.
