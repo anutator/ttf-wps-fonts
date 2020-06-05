@@ -10,8 +10,9 @@ tar xvzf wps-fonts.tar.gz
 cd wps-fonts
 sudo ./install.sh
 ```
-CentOS
-Отмечу, что для CentOS необязательно качать весь архив wps-fonts.tar.gz, потому что основные шрифты уже есть в первых двух пакетах. Нам нужен будет только шрифт mtextra.ttf
+CentOS.
+
+Отмечу, что для CentOS необязательно качать весь архив wps-fonts.tar.gz, потому что основные шрифты уже есть в первых двух пакетах. Нам нужен будет только шрифт mtextra.ttf.
 ```
 sudo yum install msttcore-fonts-installer webcore-fonts
 wget https://github.com/anutator/ttf-wps-fonts/blob/master/wps-fonts.tar.gz
