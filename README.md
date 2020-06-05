@@ -1,6 +1,7 @@
 # Моя альтернативная установка шрифтов для WPS Office
-Я добавила к текущим шрифтам, которые не в архиве, дополнительные шрифты для WPS Office.
-Ubuntu:
+Я добавила к текущим шрифтам, которые не в архиве, дополнительные шрифты для WPS Office
+
+Ubuntu, Pop OS и подобные дистрибутивы.
 ```
 sudo add-apt-repository multiverse
 sudo apt install ttf-mscorefonts-installer
@@ -10,6 +11,7 @@ cd wps-fonts
 sudo ./install.sh
 ```
 CentOS
+Отмечу, что для CentOS необязательно качать весь архив wps-fonts.tar.gz, потому что основные шрифты уже есть в первых двух пакетах. Нам нужен будет только шрифт mtextra.ttf
 ```
 sudo yum install msttcore-fonts-installer webcore-fonts
 wget https://github.com/anutator/ttf-wps-fonts/blob/master/wps-fonts.tar.gz
