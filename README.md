@@ -6,7 +6,7 @@ Ubuntu, Pop OS и подобные дистрибутивы.
 ```
 sudo add-apt-repository multiverse
 sudo apt install ttf-mscorefonts-installer
-wget https://github.com/anutator/ttf-wps-fonts/blob/master/wps-fonts.tar.gz  # лучше скачать вручную
+wget https://github.com/anutator/ttf-wps-fonts/raw/master/wps-fonts.tar.gz  # лучше скачать вручную
 tar xvzf wps-fonts.tar.gz
 cd wps-fonts
 sudo ./install.sh
@@ -16,7 +16,7 @@ CentOS.
 Отмечу, что для CentOS необязательно качать весь архив wps-fonts.tar.gz, потому что основные шрифты уже есть в первых двух пакетах. Нам нужен будет только шрифт mtextra.ttf.
 ```
 sudo yum install msttcore-fonts-installer webcore-fonts
-wget https://github.com/anutator/ttf-wps-fonts/blob/master/wps-fonts.tar.gz
+wget https://github.com/anutator/ttf-wps-fonts/raw/master/wps-fonts.tar.gz
 tar xf wps-fonts.tar.gz
 cd wps-fonts
 sudo ./install.sh
