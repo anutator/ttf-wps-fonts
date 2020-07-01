@@ -6,7 +6,7 @@ Ubuntu, Pop OS и подобные дистрибутивы.
 ```
 sudo add-apt-repository multiverse
 sudo apt install ttf-mscorefonts-installer
-wget https://github.com/anutator/ttf-wps-fonts/blob/master/wps-fonts.tar.gz
+wget https://github.com/anutator/ttf-wps-fonts/blob/master/wps-fonts.tar.gz  # лучше скачать вручную
 tar xvzf wps-fonts.tar.gz
 cd wps-fonts
 sudo ./install.sh
