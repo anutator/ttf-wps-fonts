@@ -17,7 +17,7 @@ CentOS.
 ```
 sudo yum install msttcore-fonts-installer webcore-fonts
 wget https://github.com/anutator/ttf-wps-fonts/blob/master/wps-fonts.tar.gz
-tar xvzf wps-fonts.tar.gz
+tar xf wps-fonts.tar.gz
 cd wps-fonts
 sudo ./install.sh
 ```
